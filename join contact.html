@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+    var mevcutdersler = new Array (" html ", " js ");
+    var verelecekdersler = new Array (" hatml5 "," java ");
+
+    for (var i=0;i<mevcutdersler.length;i++)
+    {document.write(mevcutdersler[i]);}
+    document.write("<hr/>");
+    for (var j=0;j<verelecekdersler.length;j++)
+    {document.write(verelecekdersler[j]);}
+    document.write("<hr/>");
+     document.write(mevcutdersler.join());
+     document.write("<hr/>");
+ var dersler = new Array ();
+ dersler[0] = mevcutdersler[0];
+ dersler[1] = mevcutdersler[1];
+ dersler[2] = verelecekdersler[0];
+ dersler[3] = verelecekdersler[1];
+ document.write(dersler.join());
+ document.write("<hr/>");
+ document.write((verelecekdersler.concat(mevcutdersler)).join());
+
+ document.write("<hr/>");
+
+document.write((dersler.reverse()).join());
+</script>
+</body>
+</html>

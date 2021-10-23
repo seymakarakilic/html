@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+    var mevcutdersler = new Array (" html ", " js ");
+    var verelecekdersler = new Array (" hatml5 "," java ");
+var dersler = mevcutdersler.concat(verelecekdersler);
+document.write(dersler.join());
+
+//sort metodunu ele aldık.
+document.write("<hr/>");
+ var  derslersıralı = dersler.sort();
+ document.write(derslersıralı.join());
+
+//pop metotu
+document.write("<hr/>");
+derslersıralı.pop();
+document.write(dersler.join());
+
+//push metodu
+document.write("<hr/>");
+derslersıralı.push("autocad","ph");
+document.write(derslersıralı.join());
+</script>
+</body>
+</html>
