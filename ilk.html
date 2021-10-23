@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+    <script type="text/javascript">
+    var x=1
+    function birinci (param) {document.write ("ilk fonksiyonumu "+param+". defa çalıştırıyorum");
+    ikinci(param);}
+    function ikinci (param2) {document.write ("ikinci fonksiyonumu "+param2+". defa çalıştırıyorum");
+                             param2=param2+1;
+                               birinci(param2);}
+    birinci(x);
+    var x=5;
+    x++;
+    var y=3;
+    y/=3;
+    document.write ("merhaba aradığınız sayı: "+x);
+    document.write ("<br/>"+"merhaba ikinci aradığınız sayı: "+y);
+    </script>
+    
+</body>
+</html>
